@@ -1,0 +1,16 @@
+---
+section: get-started
+title: 시작하십시오
+entries:
+- title: BlueXP 볼륨 캐싱에 대해 자세히 알아보십시오
+  url: "/get-started/cache-intro.html"
+- title: 필수 구성 요소
+  url: "/get-started/cache-prerequisites.html"
+- title: 빠른 시작
+  url: "/get-started/cache-quick-start.html"
+- title: BlueXP 볼륨 캐싱을 설정합니다
+  url: "/get-started/cache-setup.html"
+- title: BlueXP 볼륨 캐싱을 액세스합니다
+  url: "/get-started/cache-login.html"
+- title: FAQ 를 참조하십시오
+  url: "/get-started/cache-faq.html"

@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-login.html 
+keywords: bluexp login, volume caching log in 
+summary: BlueXP의 서비스에 액세스하여 BlueXP 볼륨 캐싱을 시작합니다. 
+---
+= BlueXP 볼륨 캐싱을 액세스합니다
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp BlueXP를 사용하여 BlueXP 볼륨 캐싱 서비스에 로그인합니다.
+
+BlueXP에 로그인하려면 NetApp Support 사이트 자격 증명을 사용하거나 이메일 및 암호를 사용하여 NetApp 클라우드 로그인에 등록할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["로그인에 대해 자세히 알아보십시오"^].
+
+.단계
+. 웹 브라우저를 열고 로 이동합니다 https://console.bluexp.netapp.com/["BlueXP 콘솔"^].
++
+NetApp BlueXP 로그인 페이지가 나타납니다.
+
+. BlueXP에 로그인합니다.
+. BlueXP 왼쪽 탐색 창에서 * 이동성 * > * 볼륨 캐싱 * 을 선택합니다.
++
+BlueXP 볼륨 캐싱 대시보드가 나타납니다.
+image:landing-page.png["볼륨 캐싱의 랜딩 페이지 이미지"]
+
++
+
+NOTE: BlueXP 커넥터가 설정되지 않은 경우 * 커넥터 추가 * 옵션이 나타납니다. 을 참조하십시오 link:../get-started/cache-setup.html["BlueXP 볼륨 캐싱을 설정합니다"].
+
+

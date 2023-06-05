@@ -1,0 +1,12 @@
+---
+section: use
+title: BlueXP 볼륨 캐싱을 사용합니다
+entries:
+- title: BlueXP 볼륨 캐싱 개요를 사용합니다
+  url: "/use/cache-use-overview.html"
+- title: 캐시를 생성합니다
+  url: "/use/cache-create.html"
+- title: 캐시 관리
+  url: "/use/cache-manage.html"
+- title: 볼륨 캐싱 작업을 모니터링합니다
+  url: "/use/monitor-jobs.html"
