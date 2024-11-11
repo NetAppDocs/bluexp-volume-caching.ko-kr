@@ -14,11 +14,9 @@
   <block id="aad34603323b5d4e67ae4a686a15b2e5" category="summary">볼륨 캐싱은 원격 위치에서 쓰기 가능한 영구 볼륨을 제공합니다. BlueXP 볼륨 캐싱을 사용하여 데이터 액세스 속도를 높이거나 자주 액세스하는 볼륨에서 트래픽을 오프로드할 수 있습니다. 캐시 볼륨은 특히 클라이언트가 동일한 데이터에 반복적으로 액세스해야 하는 읽기 집약적인 워크로드에 적합합니다.</block>
   <block id="5f63db6bf0512dc0612ee852c1faf373" category="doc">BlueXP 볼륨 캐싱</block>
   <block id="666d3c7d6ea7cfc7ea6e6e6faed1cdd3" category="doc">캐시 관리</block>
-  <block id="fc66df463880523a60b999aff387392a" category="paragraph">캐시를 편집하고, 엑스포트 정책을 변경하고, 캐시 크기를 조정하고, 캐시를 삭제할 수 있습니다.</block>
   <block id="1c0d8013e981cb31dcc7e8733c4fe705" category="paragraph">BlueXP 볼륨 캐싱을 사용하면 다음과 같은 목표를 달성할 수 있습니다.</block>
   <block id="00ac51c16cde551605ec6cf0d3b91416" category="list-text">캐시 세부 정보를 봅니다.</block>
   <block id="06fc18e5e4898299f1a818098e8e94c7" category="list-text">캐시에 다른 엑스포트 정책을 할당합니다.</block>
-  <block id="8ba82ac05e167f153ba79532f2f1980a" category="list-text">볼륨 캐싱 편집 및 크기 변경 등 편집에는 다른 속성을 보고 변경할 수 있는 옵션이 있으며, 향후 릴리스에서 더 많은 속성이 편집 시 추가됩니다.</block>
   <block id="b8c0701847f6b5a25da10d75bdbcba97" category="list-text">원래 볼륨 크기의 비율을 기준으로 기존 캐시의 크기를 조정합니다.</block>
   <block id="e33b91d9e0fc1cfb3b1e4c432687e47d" category="list-text">캐시를 삭제합니다.</block>
   <block id="eed3d8fba58a64cd23112120a6117455" category="section-title">캐시 세부 정보를 봅니다</block>
@@ -34,23 +32,19 @@
   <block id="f3bd519b868da90fe41b12102022d728" category="list-text">필요에 따라 캐시 액세스 탭을 확장하고 다음 값을 수정합니다.</block>
   <block id="4224fae747c5197aa6015f2364e1af12" category="list-text">마운트 경로입니다.</block>
   <block id="77cf0358c33e9b52d8fd3920268e696c" category="list-text">기존 정책과 다른 엑스포트 정책</block>
-  <block id="eccbd53b475458e412e8bcbe57009813" category="list-text">SMB/CIFS 공유 세부 정보 또는 엑스포트 정책 규칙을 변경하려면 옵션을 클릭하여 BlueXP System Manager에 액세스합니다.</block>
   <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">저장 * 을 선택합니다.</block>
   <block id="e48096df97c7e7e77282b4b97ee9bd9a" category="section-title">다른 캐시 엑스포트 정책을 할당합니다</block>
   <block id="4635bd9ae5cb389a0305a6b8455fa215" category="paragraph">캐시에 다른 엑스포트 정책을 할당할 수 있습니다.</block>
   <block id="55d1d3e519ab62ebe0a1babb50ae6d72" category="paragraph">소스 엑스포트 정책 규칙은 타겟 클러스터에 적용해야 합니다.</block>
-  <block id="e7ce5893a6e3bdd09c32da72f9a3c69e" category="admonition">캐시에 기존 엑스포트 정책을 할당할 수 있습니다. 엑스포트 정책 규칙은 변경할 수 없습니다. 엑스포트 정책을 변경해야 하는 경우 NetApp 시스템 관리자를 사용할 수 있습니다.</block>
   <block id="4d418cdd8812dfcb356166d6eaf269f7" category="list-text">내보내기 정책 변경 * 을 선택합니다.</block>
   <block id="b580ca1414e0a945196190cbfbc1f75d" category="list-text">캐시에 할당할 엑스포트 정책을 선택합니다.</block>
   <block id="31bb5882b51789d8ff23370b949a73ec" category="paragraph">소스 볼륨의 비율에 따라 캐시 볼륨의 크기를 변경할 수 있습니다.</block>
   <block id="782635f18c9a4c6e77f10be3b478b27a" category="list-text">크기 조정 * 을 선택합니다.</block>
   <block id="c108e3ea3f3ec7a419ec6372a3325d79" category="list-text">원본 볼륨 크기의 새 비율을 입력합니다.</block>
-  <block id="423f18c1cd7d2cab76c65e9cbd30b5d2" category="paragraph">캐시 볼륨이 새 비율로 조정됩니다.</block>
   <block id="8d4c7677b103c84ac6a97f6e946f6380" category="paragraph">더 이상 캐시가 필요하지 않으면 삭제할 수 있습니다. 그러면 볼륨 캐싱 관계가 삭제되고 타겟 볼륨 캐시가 삭제됩니다.</block>
   <block id="0f024621e0673f1f4e657983682d6e72" category="list-text">삭제 * 를 선택합니다.</block>
   <block id="9b4532069e9bc4e1de3c019493dc5ee0" category="list-text">확인란을 선택합니다.</block>
   <block id="15a05e063d4c5c1c840a1358ea5e2f1a" category="doc">캐시를 생성합니다</block>
-  <block id="f547278e453645a6383c4ea6320b1bfa" category="paragraph">소스 작업 환경에서 캐시 소스로 하나 이상의 소스 볼륨을 사용하여 ONTAP, Cloud Volumes ONTAP 및 온-프레미스 ONTAP용 Amazon FSx 간에 볼륨 캐싱을 생성할 수 있습니다. 그런 다음 캐시 볼륨의 스토리지 가상 머신을 선택합니다.</block>
   <block id="3bae4a7e1bd988883c56b21e3e66b177" category="paragraph">캐시 볼륨은 소스 볼륨과 동일한 클러스터 또는 다른 클러스터에 있을 수 있습니다. 캐시에 저장하도록 선택한 볼륨은 동일한 스토리지 VM에 속해야 하며 스토리지 VM은 동일한 프로토콜을 사용해야 합니다.</block>
   <block id="40d1cd0fd7b32697fca346c77e81cf33" category="admonition">볼륨이 캐싱에 적합하지 않은 경우에는 선택할 수 없도록 회색으로 표시됩니다.</block>
   <block id="6594dee820a1fb7f669a0a7cf87596d3" category="paragraph">캐시 볼륨의 크기를 소스 볼륨 크기의 백분율로 입력할 수 있습니다.</block>
@@ -303,15 +297,8 @@
   <block id="00ebffbe73c6303da2faaad0ab45e519" category="list-text">클라우드 공급자 간에 데이터를 캐싱하여 클라우드 사일로 제거</block>
   <block id="3539435a6de515609cc1b8543224f713" category="list-text">저렴한 스토리지 비용</block>
   <block id="a1b38c81c5d745e1d6ec22e5dd6e03bc" category="list-text">여러 지리적 위치에서 협업</block>
-  <block id="a6d7999efa7a1a03a2c0e825c1cf9006" category="list-text">BlueXP에서 NetApp 관리 서비스 사용</block>
-  <block id="c9ffd0422125f32e82a20e75ccd4fa42" category="list-text">변화하는 IT 환경에 신속하게 대응할 수 있습니다</block>
-  <block id="02472e415a539d0a8886679760e38e96" category="list-text">클라우드에서 호스팅되는 온디맨드 또는 구독 기반 볼륨 캐싱</block>
   <block id="c544441b0664ccc643b832fb4c1a2198" category="section-title">BlueXP 볼륨 캐싱 기능</block>
   <block id="afbfc91726ebc0228b09fab9d0c7cb8e" category="paragraph">BlueXP 볼륨 캐싱은 다음과 같은 목표를 달성하기 위해 여러 NetApp 기술을 완벽하게 사용할 수 있도록 합니다.</block>
-  <block id="f291c3dfbe876e9b251168316e411067" category="paragraph">BlueXP 볼륨 캐싱 서비스는 다음과 같은 목표를 달성하기 위해 여러 NetApp 기술을 완벽하게 사용할 수 있도록 지원합니다.</block>
-  <block id="b165c27356ec72ed87e0d89023b56a29" category="list-text">한 클라우드 공급자의 데이터를 다른 클라우드 공급자로 캐싱</block>
-  <block id="6d14d0fea89a1c59e9646774b2dce3ef" category="list-text">캐시 엑스포트 정책을 보고 편집합니다</block>
-  <block id="fd420f91fd55c70ed0b581da9becda92" category="list-text">기존 캐시의 크기를 조정합니다</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="c060b927fb39869f82ce75db89638641" category="paragraph">NetApp는 BlueXP 볼륨 캐싱 서비스 사용에 대해 비용을 부과하지 않지만, 클라우드 공급자에게 데이터 수신 및 송신 요금이 있는지 확인해야 합니다.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">라이센싱</block>
@@ -418,4 +405,16 @@ BlueXP 볼륨 캐싱에는 활성화가 필요하지 않습니다. 볼륨 캐싱
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSS 자격 증명을 BlueXP  조직과 연결하는 것은 BlueXP  사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP  조직 ID와 연결됩니다. BlueXP  조직에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="ff45d71e69fb5930de79de7c94326d7b" category="doc">볼륨 캐싱</block>
+  <block id="a8bac84ff523e931f832e7db81860512" category="list-text">BlueXP 에서 NetApp 관리형 서비스를 사용합니다</block>
+  <block id="6f8213fefb0b6762f1d9c530a2bae206" category="list-text">변화하는 IT 환경에 더 빠르게 적응합니다</block>
+  <block id="3d400de59ced76466bf7abdb0ec00cab" category="list-text">클라우드에서 호스팅되는 온디맨드 또는 구독 기반의 볼륨 캐싱을 사용합니다</block>
+  <block id="36d85431ec6c5bc79927239a19ced905" category="list-text">한 클라우드 공급자에서 다른 클라우드 공급자로 데이터를 캐싱합니다.</block>
+  <block id="c3369e7530496c918d055b6297c1bc2f" category="list-text">캐시 엑스포트 정책을 보고 편집합니다.</block>
+  <block id="00b68c9836b8e47862a5da8d7ba18007" category="list-text">기존 캐시 크기를 조정합니다.</block>
+  <block id="61ab08005a7be6cbf1a790400ab44b84" category="paragraph">소스 작업 환경에서 하나 이상의 소스 볼륨을 캐시 소스로 사용하여 Amazon FSx for ONTAP, Cloud Volumes ONTAP 및 온프레미스 ONTAP 간에 볼륨 캐시를 생성할 수 있습니다. 그런 다음 캐시 볼륨의 스토리지 가상 머신을 선택합니다.</block>
+  <block id="75d18c897e2efc995fe22f47079933f7" category="paragraph">볼륨 캐시를 편집하고, 엑스포트 정책을 변경하고, 캐시 크기를 조정하고, 캐시를 삭제할 수 있습니다.</block>
+  <block id="2ab14afb0bc8eed1346cbbb6dae409ce" category="list-text">볼륨 캐시를 편집하고 크기 같은 특성을 변경합니다.</block>
+  <block id="b1173706a82c0b333329c5bf3779ae2a" category="list-text">SMB/CIFS 공유 세부 정보 또는 엑스포트 정책 규칙을 변경하려면 옵션을 클릭하여 ONTAP System Manager에 액세스합니다.</block>
+  <block id="535184ca902c3c0051ff3401e765baec" category="admonition">캐시에 기존 엑스포트 정책을 할당할 수 있습니다. 엑스포트 정책 규칙은 변경할 수 없습니다. 엑스포트 정책을 변경해야 하는 경우 ONTAP System Manager를 사용할 수 있습니다.</block>
+  <block id="c76e1ddfccba2139e45754bcf8276247" category="paragraph">캐시 볼륨의 크기가 새 백분율로 조정됩니다.</block>
 </blocks>
